@@ -1,15 +1,15 @@
 // Owner number
-global.owner = '6285887776722'
+global.owner = '6283811412925'
 // Owner name
-global.owner_name = 'Wildan Izzudin'
+global.owner_name = 'Wndavenznchole'
 // Database name (Default: database)
 global.database = 'database'
 // Maximum upload file size limit (Default : 100 MB)
-global.max_upload = 100
+global.max_upload = 50
 // Delay for spamming protection (Default : 3 seconds)
-global.cooldown = 3
+global.cooldown = 1
 // User Limitation (Default : 25)
-global.limit = 25
+global.limit = 10
 // Time to be temporarily banned and others (Default : 30 minutes)
 global.timer = 1800000
 // Symbols that are excluded when adding a prefix (Don't change it)
@@ -17,7 +17,7 @@ global.evaluate_chars = ['=>', '~>', '<', '>', '$']
 // Country code that will be automatically blocked by the system, when sending messages in private chat
 global.blocks = ['91', '92', '94', '94', '212']
 // Put target jid to forward friends story
-global.forwards = global.owner + '@c.us'
+//global.forwards = global.owner + '@c.us'
 // Get neoxr apikey by registering at https://api.neoxr.my.id
 global.Api = new (require('./neoxrApi'))(process.env.API_KEY)
 // Get bid and key configuration for autoreply chat ai feature by registering at https://brainshop.ai
@@ -26,11 +26,11 @@ global.chatai_key = 'MKPsfkgXLZPGrWoH'
 // Timezone (Default : Asia/Jakarta)
 global.timezone = 'Asia/Jakarta'
 // Bot version
-global.version = '2.2.2',
+global.version = '4.1.7',
 // Bot name
-global.botname = `© neoxr-bot v${global.version} (Public Bot)`
+global.botname = `# neoxr-bot v${global.version} (Public Bot)`
 // Footer text
-global.footer = 'ꜱɪᴍᴘʟᴇ ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ ɴᴇᴏxʀ ッ'
+global.footer = 'Neoxr-bot 2023'
 // Global status
 global.status = Object.freeze({
    wait: Func.texted('bold', 'Processed . . .'),
